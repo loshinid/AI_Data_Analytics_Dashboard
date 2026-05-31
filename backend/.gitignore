@@ -1,0 +1,7 @@
+uploads/
+models_store/
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
