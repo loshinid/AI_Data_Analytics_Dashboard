@@ -73,7 +73,7 @@ resumeproject/
 ```bash
 git clone https://github.com/your-username/ai-data-dashboard.git
 cd ai-data-dashboard
-2. Backend Setup
+### 2. Backend Setup
 cd backend
 python -m venv venv
 
@@ -87,7 +87,7 @@ uvicorn main:app --reload --port 8000
 Backend runs at:
 👉 http://localhost:8000/docs
 
-3. Frontend Setup
+### 3. Frontend Setup
 cd frontend
 npm install
 npm run dev
@@ -95,7 +95,7 @@ npm run dev
 Frontend runs at:
 👉 http://localhost:5173
 
-📌 How to Use
+## 📌 How to Use
 Open the frontend in browser
 Upload sample_data/sample.csv
 Explore:
@@ -103,13 +103,15 @@ Analytics
 Visualizations
 Machine Learning predictions
 NLP insights
-🧠 Machine Learning Logic
+
+## 🧠 Machine Learning Logic
 Numeric target → Regression model
 Categorical target → Classification model
 Models used:
 Linear Regression
 Random Forest
-📊 API Endpoints
+
+## 📊 API Endpoints
 POST /api/upload → Upload dataset
 GET /api/columns → Column details
 GET /api/stats → Dataset statistics
@@ -117,13 +119,15 @@ GET /api/visuals → Visualization data
 POST /api/train → Train ML model
 POST /api/predict → Make predictions
 GET /api/nlp-analysis → NLP insights
-⭐ Future Improvements
+
+## ⭐ Future Improvements
 Deploy frontend and backend online
 Add authentication system
 Improve UI/UX design
 Add more ML models
 Export reports as PDF
-📌 Note
+
+## 📌 Note
 
 Built as a learning project for AI + Data Science + Full Stack development.
 This project is for learning and portfolio use.
